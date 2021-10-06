@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Ejercicio 2 - Botones">
+    <test name = "Double Click Action">
+        <classes>
+            <class name = "Ejercicio2_1" />
+        </classes>
+    </test>
+
+    <test name = "Right Click Action">
+        <classes>
+            <class name = "Ejercicio2_2" />
+        </classes>
+    </test>
+
+    <test name = "Click Action">
+        <classes>
+            <class name = "Ejercicio2_3" />
+        </classes>
+    </test>
+
+</suite>
