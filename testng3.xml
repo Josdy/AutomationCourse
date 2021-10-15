@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "Ejercicio 3 - Crear cuenta">
+
+    <test name = "Test Create Account">
+        <classes>
+            <class name = "com.automationtest.CreateAccount" />
+        </classes>
+    </test>
+
+    <test name = "Test Login Account">
+        <classes>
+            <class name = "com.automationtest.LoginAccount" />
+        </classes>
+    </test>
+
+    <test name = "Test Shopping Account">
+        <classes>
+            <class name = "com.automationtest.Shopping" />
+        </classes>
+    </test>
+
+
+</suite>
