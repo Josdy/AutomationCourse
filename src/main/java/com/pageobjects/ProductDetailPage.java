@@ -24,7 +24,7 @@ public class ProductDetailPage extends Base {
 
     public ProductDetailPage(WebDriver driver) {
         this.driver = driver;
-        softAssert = new SoftAssert();
+       softAssert = new SoftAssert();
         actionsMethod = new ActionsMethod(driver);
         PageFactory.initElements(driver, this);
     }

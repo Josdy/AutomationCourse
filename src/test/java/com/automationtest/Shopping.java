@@ -3,10 +3,10 @@ package com.automationtest;
 import com.Base;
 import com.dataprovider.LoginDataProvider;
 import com.pageobjects.*;
-import com.sun.org.apache.xpath.internal.operations.Or;
+
 import com.utilities.ActionsMethod;
 import com.utilities.WaitMethod;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
@@ -166,3 +166,5 @@ public class Shopping extends Base {
     }
 
 }
+
+

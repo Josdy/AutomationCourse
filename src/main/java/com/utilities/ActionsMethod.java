@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
+import java.security.Key;
+
 
 public class ActionsMethod {
     public Actions act;
@@ -23,5 +25,8 @@ public class ActionsMethod {
 
     public void mouseOver(WebElement element){
         act.moveToElement(element).build().perform();
+    }
+    public void topPage(){
+        act.sendKeys(Keys.HOME).perform();
     }
 }
